@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int o1;
+again_1:
+clrscr();
+gotoxy(28,1);
+printf("M M   C O N V E R T E R");
+gotoxy(2,3);
+printf("(1) Distance");
+gotoxy(2,4);
+printf("(2) Speed or Velocity");
+gotoxy(2,6);
+printf("Enter option number:");
+scanf("%d",&o1);
+if((o1!=1)||(o1!=2))
+   {
+   goto again_1;
+   }
+clrscr();
+if(o1==1)
+   {
+   gotoxy(30,1);
+   printf("Dictance");
+   gotoxy(2,3);
+   printf("(1) Kilometers");
+   gotoxy(2,4);
