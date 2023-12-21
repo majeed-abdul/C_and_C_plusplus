@@ -129,13 +129,6 @@ start:
       strcpy(cmn, c);
       goto start;
    }
-   if ((!strcmp(inp, "lado") && (lado != 2))) // 2
-   {
-      lado = 2;
-      sco++;
-      strcpy(cmn, c);
-      goto start;
-   }
    if ((!strcmp(inp, "oxygen") && (oxygen != 2))) // 3
    {
       oxygen = 2;
@@ -244,6 +237,13 @@ start:
    if ((!strcmp(inp, "toung") && (toung != 2))) // 18
    {
       toung = 2;
+      sco++;
+      strcpy(cmn, c);
+      goto start;
+   }
+   if ((!strcmp(inp, "lado") && (lado != 2))) // 2
+   {
+      lado = 2;
       sco++;
       strcpy(cmn, c);
       goto start;
