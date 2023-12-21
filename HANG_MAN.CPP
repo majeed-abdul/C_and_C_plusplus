@@ -174,7 +174,7 @@ for(int c=1;c<=nw;c++)           //////////////////////////////////////////////
    }                                              //
 if(counter!=1)                                    //
    {                                              //
-   wro++; //                               Processing Engine
+   wro++; //                                  Game Engine
    gotoxy((14+(wro*2)),6);                        //
    printf(",%c. %d",in[0],wro);                   //
    }                                              //
