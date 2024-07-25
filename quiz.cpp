@@ -62,7 +62,7 @@ int main(){
         score=i;
     }
     if(score>=8){
-        score=-1;
+        score=10000000;
     }
     cout<<"Score is "<<score;
     return 0;
